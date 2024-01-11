@@ -1,5 +1,9 @@
 #!/bin/bash
 
+echo "updating system"
+sudo apt-get update
+sudo apt-get autoremove
+
 #docker service configs
 
 curl -fsSL https://get.docker.com -o get-docker.sh
